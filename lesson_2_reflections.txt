@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+Initialization indicates that a new folder/files will be added to the version control.
+This is required to ensure that the version control system is aware that new files are to be added.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+This is an intermediate location before doing a permanent commit to the repository.
+The selective data can be pushed to the repository and being sure of moving it.
+This gives a cleaner approach of what data that users want to push to repository instead of everything in the folder.
