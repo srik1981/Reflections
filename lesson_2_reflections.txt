@@ -6,3 +6,21 @@ How is the staging area different from the working directory and the repository?
 This is an intermediate location before doing a permanent commit to the repository.
 The selective data can be pushed to the repository and being sure of moving it.
 This gives a cleaner approach of what data that users want to push to repository instead of everything in the folder.
+
+How can you use the staging area to make sure you have one commit per logical change?
+The diff command helps in identifying the changes between the working directory and staging area.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches are useful when you want to try something new experimental feature without breaking the working copy.
+Branches help in implementing beta features and eventually merge with master copy after fully tested.
+
+How do the diagrams help you visualize the branch structure?
+Diagrams are always good approach to understanding the concepts behind branching.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging branches would combine the code from master branch with the child.
+The diagramatic representation would make it easier to understand which code base should be merged and which should not.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merges are useful when only the users changes are merged to master copy with nothing updated on the master code base.
+Merging manually is useful when there are mutiple changes on the same code block. This gives the user the option to decide which code block goes in the merged copy.
